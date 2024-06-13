@@ -1,0 +1,27 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+<div class="mt-3">
+<div class="mt-3 text-center">
+<img src={% static 'core/images/myphoto.jpg' %} alt="ProfilePic" class="img-thumbnail" width="150px" height="150px">  
+</div>
+<div class="mt-3 text-white mx-5 text-justify">
+<h4 class="font-weight-bold st-font">Python Fullstack Developer</h4>
+<div>
+<p style="text-indent:100px;"> I am <b class="text-warning">Smruti Dash</b> Over 3+ years in python and django, AWS, ReactJs and 5+ yrs In Other Technologies (Data Analytics).</p>
+<p>Well versed with Agile Framework and Jira Software with GitHub Use .</p>
+<p>Worked with FutureFocusInfotechPvtLtd as Python Software Developer and deputed in <b class="text-warning"> TCS (Bhubaneshwar) </b></p>
+<p>Worked with CBSI as Python Software Developer and deputed in <b class="text-warning">Infosys (Bhubaneshwar) </b></p>
+<p>Excellent analytical skills with proficiency in Python,Django,DjangoFrameworkPythonFastApi,MySQL,PostgresSQL,RestAPIs .</p> 
+<p>Knowledge in latest Frontend Technologies like HTML,CSS,Bootstrap,Javascript and ReactJs. </p>
+<p>Knowledge in Data Science,Machine Learning,pandas,NumPy,WebScarping,NLP,Tablue.</p>
+<p>In AWS Services experience in use of S3 Buckets, Glue jobs, Stepfunctions, Lambdas, SNS, AmazonCloudWatchEvent
+Wrangler, IAM Role, RDS, Redshift.</p>
+</div>
+</div>
+<div class="text-center">
+<a href="{% url 'contact'%}" class="btn btn-outline-warning my-3 mr-5">Hire Me</a>
+<a href="{% url 'contact'%}" class="btn btn-outline-info my-3 mr-5">Contact</a>
+</div>
+</div>
+{% endblock content %}
